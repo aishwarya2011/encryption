@@ -1,0 +1,14 @@
+
+create table user_details (
+user_name varchar (256),
+user_password   varchar (16)
+
+
+);
+select * from user_details;
+
+
+insert into user_details(user_name, user_password) values ('sai', 'tex1');
+insert into user_details(user_name, user_password) values ('aishwarya', 'tex2');
+insert into user_details(user_name, user_password) values ('suresh', 'tex3');
+insert into user_details(user_name, user_password) values ('akash', 'tex4');
